@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font: 'Helvetica';
+    font-size: 16;
+    /*background: rgb(240, 239, 239);*/ 
+}
+header{
+    background: rgb(240, 239, 239);
+}
+header nav{
+    float: right; /* mudar para lado direito*/
+    background-attachment: fixed;
+}
+header nav ul li{
+    display: inline-block; /* colocar topicos um ao lado do outro */
+    margin: 20px;
+}
+header nav ul li a{
+    color: #000;
+    text-decoration: none; /* remove o sublinhado*/
+    font-family: 'Helvetica';
+}
+header nav ul li a:hover {
+    color: #FFFFFF;
+}
+/*
+.home1{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20;
+}
+*/
+.imagens img{
+    padding: 50px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.contato{
+    font-family: 'Helvetica';
+    font-size: 35;
+    text-align: center;
+}
+.banner img{
+    width: 100%;
+    background-size: cover; /*preencher o maximo da tela*/
+    height: auto;
+
+}
+.valor{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    line-height: 12px;
+    font-family: 'Helvetica';
+}
+
+.botao{
+    text-decoration: none;
+    font-family: 'Helvetica';
+    color: black;
+    text-align: center;
+    font-size: 20;
+}
+
+.descricao{
+    text-align: center;
+    font-size: 20;
+    text-transform: lowercase;
+}
+.nome{
+    text-align: center;
+    font-size: 30;
+    text-transform: uppercase;
+}
+.detalhesprod{
+    font-family: 'Helvetica';
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
