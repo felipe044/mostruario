@@ -1,2 +1,1 @@
-- 🌱 Atualmente estou aprendendo linguagens como html, css, php, python e javascript
-- Bando de dados mysql workbench
+
